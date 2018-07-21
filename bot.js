@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -77,11 +78,9 @@ client.on('message', message => {
 
 
 
-const Discord = require('discord.js');
-const client = new Discord.Client();
 
 client.on('ready', () => {
-  console.log('By NightMarE Enjoy');
+  console.log('By 3bdalr7man Enjoy');
 });
 
 client.on('message', message => {
