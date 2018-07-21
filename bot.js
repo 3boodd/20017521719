@@ -116,8 +116,8 @@ reaction2.on("collect", r => {
 
 var time = 0,
  stop = false;
-bot.on('message', message =>{
-if(message.content == "start"){
+client.on('message', message =>{
+if(message.content == "3start"){
   stop=false
 setInterval(()=>{
   if(stop === true) return;
@@ -125,7 +125,7 @@ time++;
 },1000*1);
   
 }
-  if(message.content == "stop"){
+  if(message.content == "3stop"){
     stop = true
 message.reply("  "+time).then(()=> time=0)
 }
